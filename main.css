@@ -1,0 +1,89 @@
+/** ------------------ BASICS  ------------------ **/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Lucida Grande", Verdana, Arial, "Bitstream Vera Sans", sans-serif;
+    font-size: 12px;
+}
+
+#container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#message {
+    margin-top: 10px;
+}
+
+#content {
+    margin-top: 20px;
+}
+
+#todolist {
+    border-right: 1px solid #000000;
+    float: left;
+    width: 48%;
+    margin-right: -1px;
+    padding: 1% 1% 1% 1%;
+}
+
+#overzicht {
+    padding: 1% 1% 1% 1%;
+    float: left;
+    width: 48%;
+    min-height: 100px;
+
+}
+
+#info {
+    width: 100%;
+    display: table;
+}
+.row {
+    display: table-row;
+}
+
+.row div {
+    display: table-cell;
+    width: 31.33%;
+}
+
+#product, #prijs, #verwijder {
+    padding: 1% 1% 1% 1%;
+}
+
+
+/** ------------------ TEXT  ------------------ **/
+
+
+h1 {
+    color: blue;
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+
+/** ------------------ FORM  ------------------ **/
+
+input[type=text] {
+    background-color: #FFFFFF;
+    margin-top: 10px;
+}
+
+input[type=button] {
+    background-color: #FFFFFF;
+}
+
+input[type=submit] {
+    background-color: #FFFFFF;
+    margin-top: 10px;
+}
+
+ul, li {
+    list-style: none;
+}
